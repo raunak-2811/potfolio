@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raunak-potfolio</title>
+    <link rel="preconnect" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000118;
+            color: aliceblue;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 65px;
+            background-color: #00000C;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 8px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            color: rgb(95, 151, 201);
+            size: 1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .firstsection>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 50px 0;
+        }
+
+        .leftsection .button {
+            margin: 80px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: rgb(2, 6, 58);
+            color: antiquewhite;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+        .rightsection img {
+            width: 80%;
+
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(9, 67, 155);
+        }
+
+        #element {
+            color:  rgb(9, 67, 155);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 305px;
+        }
+
+        .secondsection .box {
+            background-color: rgb(28, 104, 78);
+            width: 76vw;
+            height: 1px;
+            margin: 35px 0px;
+            display: flex;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(28, 104, 78);
+            height: 0.8px;
+            margin: 60px 84px;
+        }
+
+        secodsection h1 {
+            font-size: 1.8px;
+        }
+
+        .t-grey {
+            color: grey;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: rgb(28, 104, 78);
+            margin: 0 100px;
+
+        }
+
+        .top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .topp {
+            width:17px;
+            position: relative;
+            top: 4px;
+            left: -6px;
+        }
+
+        .tit {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .des {
+            position: relative;
+            top: 80px;
+            color: wheat;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #00000C;
+        }
+
+        .flex {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .second ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 233px;
+        }
+
+        footer .wee {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Raunak's Potfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Services</a></li>
+                    <li> <a href="/">Projects</a></li>
+                    <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Raunak</span>
+                <div> And I am Passionate </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="u.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="t-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="top" src="ff.png" alt="">
+                    <div class="tit">Web Developer</div>
+                    <div class="des">(2022 to current)</div>
+                </div>
+                <div class="vertical">
+                    <img class="top" src="t.png" alt="">
+                    <div class="tit">Computer Science Engineer</div>
+                    <div class="des">(Preparing)</div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="first">
+                <h3>Raunak's Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><img class="topp" src="instagram.png" alt="">Instagram</li>
+                    <li><img class="topp" src="facebook.png" alt="">Facebook</li>
+                    <li><img class="topp" src="twitter.png" alt="">Twitter</li>
+                    <li><img class="topp" src="linkedin.png" alt="">Linkdin</li>
+                </ul>
+            </div>
+            <div class="third"></div>
+            
+        </div>
+        <div class="wee">
+            COPY RIGHT&#169; www.raunakporfolio.com|ALL RIGHT RESERVED
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Digital Marketing'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
